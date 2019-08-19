@@ -1,266 +1,498 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Niko - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Sanjyot Zade - Senior Data Scientist @ Youplus Inc.</title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="vendors/linericon/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<!-- main css -->
-	<link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-<body>
-	<!--================ Start Header Area =================-->
-	<header class="header_area" id="home">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item active"><a class="nav-link" href="">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="#about_section">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="#work_section">Work</a></li>
-							<!--<li class="nav-item"><a class="nav-link" href="#research_section">Research</a></li>-->
-							<li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/sanjyot-zade/">Connect with Me!</a></li>
-							<!--<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Pages</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portfolio Details</a></li>
-								</ul>
-							</li>-->
-							<!--<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>-->
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!--================ End Header Area =================-->
+    <link rel="stylesheet" href="css/aos.css">
 
-	<!--================ Start Home Banner Area =================-->
-	<section class="home_banner_area">
-		<div class="banner_inner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-7">
-						<div class="banner_content">
-							<h3 class="text-uppercase">I am </h3>
-							<h2 class="text-uppercase main_name">
-								<span
-									class="txt-rotate text-uppercase"
-									data-period="500"
-									data-rotate='[ "Sanjyot Zade", "an ai researcher.", "simple & fun!" ]'>
-								</span>
-							</h2>
-							<div class="d-flex align-items-center btn_cluster">
-								<a class="primary_btn" href="https://www.linkedin.com/in/sanjyot-zade/"><span>linkedin</span></a>
-								<a class="primary_btn tr-bg" href="data/SANJYOT_ZADE_RESUME.pdf"><span>Resume</span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-5">
-						<div class="home_right_img">
-							<img class="" src="img/my-cartoon.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Home Banner Area =================-->
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-	<!--================ Start About Us Area =================-->
-	<section class="about_area" id="about_section">
-		<div class="container">
-			<div class="row justify-content-start align-items-center">
-				<div class="col-lg-5">
-					<div class="about_img">
-						<img class="" src="img/my-cartoon-2.png" alt="">
-					</div>
-				</div>
-				<div class="offset-lg-1 col-lg-5">
-					<div class="main_title text-left">
-						<h2>about <br>
-							myself</h2>
-						<p>
-							I am a Data Scientist at Youplus Inc. currently focused on `Computer Vision` and `Natural Language Processing`. I received my BTech & Mtech from IIT Khragpur, where I worked on machine learning and its application in academic areas.
-							<br>
-						Apart from being a data scientist, I enjoy most of my time being indoors. In the winter, I am an avid cook and a novice shuttler. During the warmer months here in India, I enjoy cycling. Food outings are always my priority.
-I follow a number of sci-fi, fantasy genre movies and television shows. I spend a large amount of my free time exploring the latest technology advancements in the internet world specially related to artificial intelligence.
-						</p>
-						<a class="primary_btn" href="data/SANJYOT_ZADE_RESUME.pdf"><span>Download CV</span></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End About Us Area =================-->
 
-	<!--================ Start Features Area =================-->
-	<section class="features_area" id="work_section">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title">
-						<h2>WORK</h2>
-						<p>
-							I have been working in the domain of <strong>Artificial Intelligence</strong> for over 3 years now.<br>
-							I have expertize in <strong>Predictive Analytics</strong>, <strong>Computer Vision</strong> & <strong>Natural Language Process</strong>.<br> I am also familier with <strong> Speech Processing</strong>.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row feature_inner">
-				<div class="col-lg-6">
-					<div class="feature_item">
-						<img src="img/ana.png" alt="">
-						<h4>Predictive Analytics</h4>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="feature_item">
-						<img src="img/nlp.png" alt="">
-						<h4>Natural Language Processing</h4>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="feature_item">
-						<img src="img/cv.png" alt="">
-						<h4>Computer Vision</h4>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="feature_item">
-						<img src="img/speech.png" alt="">
-						<h4>Speech</h4>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Features Area =================-->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">SJ</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
 
-	<!--================Footer Area =================-->
-	<footer class="footer_area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-12">
-					<div class="footer_top flex-column">
-						<div class="footer_logo">
-							<h4>Connect With Me!</h4>
-						</div>
-						<div class="footer_social">
-							<a href="https://www.linkedin.com/in/sanjyot-zade/"><i class="fa fa-linkedin"></i></a>
-							<a href="https://github.com/Sanjyot22/"><i class="fa fa-github-square"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-	</footer>
-	<!--================End Footer Area =================-->
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+              <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<!--gmaps Js-->
-	<script src="js/theme.js"></script>
+	  </nav>
 
-	<script>
-		var TxtRotate = function(el, toRotate, period) {
-		this.toRotate = toRotate;
-		this.el = el;
-		this.loopNum = 0;
-		this.period = parseInt(period, 10) || 2000;
-		this.txt = '';
-		this.tick();
-		this.isDeleting = false;
-		};
+        <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	      <div class="slider-item ">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third order-md-last img" style="background-image:url(images/bg_1.jpg);"> <!--change-->
+	          		<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 
-		TxtRotate.prototype.tick = function() {
-		var i = this.loopNum % this.toRotate.length;
-		var fullTxt = this.toRotate[i];
+		          	<div class="text">
+		          		<span class="subheading">Hello</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Sanjyot Zade</span></h1>
+			            <h2 class="mb-4">An AI RESEARCHER</h2>
+			            <p><a href="#" class="btn-custom">Hire me</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
 
-		if (this.isDeleting) {
-			this.txt = fullTxt.substring(0, this.txt.length - 1);
-		} else {
-			this.txt = fullTxt.substring(0, this.txt.length + 1);
-		}
+	      <div class="slider-item">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third order-md-last img" style="background-image:url(images/bg_2.jpg);"> <!--change-->
+	          		<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+			            <h1 class="mb-4 mt-3">I love to solve <span>challenging AI problems</span></h1>
+			            <p><a href="#" class="btn-custom">Hire me</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+    </section>
 
-		this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+    <section class="ftco-about ftco-counter img ftco-section" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 col-lg-5 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about-1.jpg);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-7 pl-lg-5 py-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<span class="subheading">Welcome</span>
+		            <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
+		            <p>Providing data backed business solutions for leading media, entertainment, and e-commerce companies. Exploiting unstructured data (video, audio & text) to assist in the opinion mining and content feedback using deep learning in computer vision, natural language processing, and speech analysis.</p>
+		          </div>
+		        </div>
+		        <div class="row">
+		        	<div class="col-md-6">
+		        		<div class="media block-6 services d-block ftco-animate">
+		              <div class="icon"><span class="flaticon-analysis"></span></div>
+		              <div class="media-body">
+		                <h3 class="heading mb-3">Computer Vision</h3>
+		                <p>Some of the highlights of the projects in computer vision include intensity of facial expression identification,
+                            Automated thumbnail generation for video, Nudity detection in video, non-temporal CNN model,
+                            Generic activity detection, spatio-temporal feature extractors from video,
+                            Image deburring/denoising and Image super-resolution</p>
+		              </div>
+		            </div> 
+		        	</div>
+		        	<div class="col-md-6">
+		        		<div class="media block-6 services d-block ftco-animate">
+		              <div class="icon"><span class="flaticon-analysis"></span></div>
+		              <div class="media-body">
+		                <h3 class="heading mb-3">Natural Language Processing</h3>
+		                <p> Major projects in NLP required developing a fully automated NLP model to extract key content-tags like characters, pairs, emotions, events.
+                            Lexical analysis, Named Entity Recognition, LDA, POS tagging, Proximity analysis, Web scraping.
+                            Created episode-wise structured content-tags for 5000*30 mins of TV content(HGEC) from unstructured text.
+                            Developed content performance tree to depict the collaborative impact of content-tags on TVR.</p>
+		              </div>
+		            </div> 
+		        	</div>
+		        </div>
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text p-4 pr-5 bg-primary">
+              	<p class="mb-0">
+	                <span class="number" data-number="20">0</span>
+	                <span>AI Projects</span>
+                </p>
+              </div>
+	          </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+		
+    <section class="ftco-section bg-light" id="skills-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+              <div class="col-md-12 heading-section text-center ftco-animate">
+                <span class="subheading">Skills</span>
+                <h2 class="mb-4">My Skills</h2>
+                <p>Developing & leading computer vision & NLP based solutions for extracting high definition meta-tags from
+                    unstructured data using deep neural networks.</p>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Machine Learning</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Deep learning</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                            <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Tensorflow</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-3" role="progressbar" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Keras</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-4" role="progressbar" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Computer Vision</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-5" role="progressbar" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Natural Langugage Processing</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-6" role="progressbar" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Tableau</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-6" role="progressbar" aria-valuenow="60"
+                            aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                            <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Excel</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-6" role="progressbar" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-		var that = this;
-		var delta = 200 - Math.random() * 100;
+            </div>
+            <div class="row justify-content-center py-5 mt-5">
+      <div class="col-md-12 heading-section text-center ftco-animate">
+        <span class="subheading">What I Do</span>
+        <h2 class="mb-4">Strategy, ML-Model and a bit of magic</h2>
+        <p>Developing "deep neural network based model" as per business requirements</p>
+      </div>
+    </div>
 
-		if (this.isDeleting) { delta /= 2; }
+    <div class="row">
+                <div class="col-md-4 text-center d-flex ftco-animate">
+                    <div class="services-1">
+                        <span class="icon">
+                            <i class="flaticon-analysis"></i>
+                        </span>
+                        <div class="desc">
+                            <h3 class="mb-5"><a href="#">Explore</a></h3>
+                            <h4>Data exploration</h4>
+                            <h4>Data cleaning</h4>
+                            <h4>Data restructuring</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center d-flex ftco-animate">
+                    <div class="services-1">
+                        <span class="icon">
+                            <i class="flaticon-flasks"></i>
+                        </span>
+                        <div class="desc">
+                            <h3 class="mb-5"><a href="#">Create</a></h3>
+                            <h4>Analyze ML/DL model</h4>
+                            <h4>Modeling re-iterations</h4>
+                            <h4>Hyper-tuning</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center d-flex ftco-animate">
+                    <div class="services-1">
+                        <span class="icon">
+                            <i class="flaticon-ideas"></i>
+                        </span>
+                        <div class="desc">
+                            <h3 class="mb-5"><a href="#">Learn</a></h3>
+                            <h4>Practical testing</h4>
+                            <h4>Latency analysis</h4>
+                            <h4>Result pooling</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		if (!this.isDeleting && this.txt === fullTxt) {
-			delta = this.period;
-			this.isDeleting = true;
-		} else if (this.isDeleting && this.txt === '') {
-			this.isDeleting = false;
-			this.loopNum++;
-			delta = 300;
-		}
+    <section class="ftco-section ftco-hireme">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-9 d-flex align-items-center ftco-animate">
+                    <h2>I'm <span>Available</span> For Freelancing</h2>
+                </div>
+                <div class="col-md-4 col-lg-3 d-flex align-items-center ftco-animate">
+                    <p class="mb-0"><a href="#" class="btn btn-white py-4 px-5">Hire me</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		setTimeout(function() {
-			that.tick();
-		}, delta);
-		};
+    <section class="ftco-section ftco-project" id="projects-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<span class="subheading">Accomplishments</span>
+            <h2 class="mb-4">My Projects</h2>
+            <p>Developing & leading computer vision & NLP based solutions for extracting high definition meta-tags from unstructured data using deep neural networks.</p>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-8">
+    				<div class="project img ftco-animate img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Face detection &amp; Recognition</a></h3>
+	    					<span>Computer Vision</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="row">
+    					<div class="col-md-12">
+		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
+		    					<div class="overlay"></div>
+			    				<div class="text text-center p-4">
+			    					<h3><a href="#">Named entity extraction, Text correction &amp; Language Model</a></h3>
+			    					<span>Natural Language Processing</span>
+			    				</div>
+		    				</div>
+	    				</div>
+	    				<div class="col-md-12">
+		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
+		    					<div class="overlay"></div>
+			    				<div class="text text-center p-4">
+			    					<h3><a href="#">Topic modeling, Sentiment extraction &amp; Lexical analysis</a></h3>
+			    					<span>Natural Language Processing</span>
+			    				</div>
+		    				</div>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-4.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Emotion, Age-gender &amp; Ethnicity extraction</a></h3>
+	    					<span>Computer Vision</span>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-8">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Object detection, tracking &amp; recognition</a></h3>
+	    					<span>Computer Vision</span>
+	    				</div>
+    				</div>
+  				</div>
+    		</div>
+    	</div>
+    </section>
 
-		window.onload = function() {
-		var elements = document.getElementsByClassName('txt-rotate');
-		for (var i=0; i<elements.length; i++) {
-			var toRotate = elements[i].getAttribute('data-rotate');
-			var period = elements[i].getAttribute('data-period');
-			if (toRotate) {
-			new TxtRotate(elements[i], JSON.parse(toRotate), period);
-			}
-		}
-		// INJECT CSS
-		var css = document.createElement("style");
-		css.type = "text/css";
-		css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-		document.body.appendChild(css);
-		};
-	</script>
-</body>
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading">Contact</span>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Let’s do some ground breaking work together.</p>
+          </div>
+        </div>
+
+        <div class="row no-gutters block-9">
+          <div class="col-md-6 order-md-last d-flex">
+            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+          
+          </div>
+
+          <div class="col-md-6 d-flex">
+          	<div class="img" style="background-image: url(images/about.jpg);"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Lets talk about</h2>
+              <p>Creating innovative, versatile &amp; complex technology solutions in Artificial Intelligence development.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business strategy</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>ML/DL model development</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Model inferencing</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Evaluation report</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">52, 3rd cross road, Dollar scheme colony, 1st stage, BTM layout 1, Bengaluru, Karnataka</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 8983383349</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">zade.sanjyot@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
 </html>
