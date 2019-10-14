@@ -458,6 +458,15 @@ pre {
     .container {
       max-width: 1140px; } }
 
+.resume-container {
+  width: 100%;
+  padding-top:100px;
+  padding-bottom:100px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
